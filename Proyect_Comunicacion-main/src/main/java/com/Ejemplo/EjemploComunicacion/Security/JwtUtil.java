@@ -17,7 +17,7 @@ import java.util.function.Function;
 
 public class JwtUtil {
 
-    private String SECRET_KEY = "0y3_m1_p3rr0"; // Cambia esto a una clave segura en un entorno de producción
+    private String SECRET_KEY = "Oññ.-p4172ññññ°!."; // Cambia esto a una clave segura en un entorno de producción
 
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
